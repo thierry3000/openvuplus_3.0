@@ -2,11 +2,11 @@ SUMMARY = "decoding library for DTS Coherent Acoustics streams"
 SECTION = "libs/multimedia"
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://COPYING;md5=751419260aa954499f7abaabaa882bbe"
-SRCREV = "4f6b5d6e6fb35994c342de95bf05e20117da549b"
+SRCREV = "1c7c6584c2cdb188a6f29eaaa85a2a84c8959395"
 PR = "r1"
 DEPENDS += "quilt-native"
 
-SRC_URI = "git://anonscm.debian.org/collab-maint/${PN}.git;protocol=git"
+SRC_URI = "git://salsa.debian.org/multimedia-team/${PN}.git;protocol=http"
 
 S = "${WORKDIR}/git"
 
